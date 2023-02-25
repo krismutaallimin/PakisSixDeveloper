@@ -1,0 +1,88 @@
+{
+  "ads": {
+    "settings": {
+      "live_version_code": -1,
+      "init_ads_mode": "single",
+      "interstitial_type": "las",
+
+      "rate_dialog_count": 4,
+      "app_live_store": "auto",
+      "splash_ad": "auto",
+      "banner_ad": "auto",
+      "banner_detail_ad": "auto",
+      "mrec_ad": "auto",
+      "inter_ad": "auto",
+      "native_ad": "auto",
+      "native_detail_ad": "auto",
+      "native_medium_ad": "auto",
+      "open_ad": "auto",
+
+      "interval_awal": 2,
+      "interval_las": 2,
+
+      "shopee_aff" : "off"
+    },
+
+    "onesignal" : {
+      "enable" : true,
+      "app_id": "3c5ac255-129a-45a2-9d5d-2c6b2f03ce8e"
+    },
+
+    "ad_network": [
+      {
+        "name": "startapp_1",
+        "value": 0,
+        "load_time_out" : 10,
+        "min_time": 0,
+        "interval": 5,
+
+        "appId_appKey_publisherId_gameId": "-",
+        "banner": "-",
+        "mrec": "-",
+        "inter": "-",
+        "native_ad": "-",
+        "open_ad": "-",
+        "banner_switch_priority": "native",
+
+        "init_wait": true,
+        "banner_on": true,
+        "detail_banner_on": true,
+        "mrec_on": true,
+        "splash_on": true,
+        "inter_on": true,
+        "native_ad_on": true,
+        "native_ad_detail_on" : true,
+        "native_ad_medium_on" : true,
+        "open_ad_on": true,
+        "must_live_at_play_store": true
+      },
+      {
+        "name": "admob",
+        "value": 0,
+        "load_time_out" : 10,
+        "min_time": 0,
+        "interval": 5,
+
+        "appId_appKey_publisherId_gameId": "-",
+        "banner": "-",
+        "mrec": "-",
+        "inter": "-",
+        "native_ad": "-",
+        "open_ad": "-",
+        "banner_switch_priority": "native",
+
+        "init_wait": true,
+        "banner_on": true,
+        "detail_banner_on": true,
+        "mrec_on": true,
+        "splash_on": true,
+        "inter_on": true,
+        "native_ad_on": true,
+        "native_ad_detail_on" : true,
+        "native_ad_medium_on" : true,
+        "open_ad_on": true,
+        "must_live_at_play_store": true
+      }
+    ]
+  }
+}
