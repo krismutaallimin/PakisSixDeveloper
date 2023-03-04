@@ -5,7 +5,7 @@
       "init_ads_mode": "single",
       "interstitial_type": "las",
 
-      "rate_dialog_count": 4,
+      "rate_dialog_count": 5,
       "app_live_store": "auto",
       "splash_ad": "auto",
       "banner_ad": "auto",
@@ -25,24 +25,24 @@
 
     "onesignal" : {
       "enable" : true,
-      "app_id": "3c5ac255-129a-45a2-9d5d-2c6b2f03ce8e"
+      "app_id": "688a56d7-7b9b-4dc4-b03e-40cd8905cc5d"
     },
 
     "ad_network": [
       {
-        "name": "startapp_1",
-        "value": 0,
+        "name": "admob",
+        "value": 100000,
         "load_time_out" : 10,
         "min_time": 0,
-        "interval": 5,
+        "interval": 2,
 
-        "appId_appKey_publisherId_gameId": "-",
-        "banner": "-",
+        "appId_appKey_publisherId_gameId": "ca-app-pub-2866997774486749~4451434604",
+        "banner": "ca-app-pub-2866997774486749/3553269996",
         "mrec": "-",
-        "inter": "-",
+        "inter": "ca-app-pub-2866997774486749/9595934164",
         "native_ad": "-",
-        "open_ad": "-",
-        "banner_switch_priority": "native",
+        "open_ad": "ca-app-pub-2866997774486749/4683368891",
+        "banner_switch_priority": "banner",
 
         "init_wait": true,
         "banner_on": true,
@@ -50,24 +50,24 @@
         "mrec_on": true,
         "splash_on": true,
         "inter_on": true,
-        "native_ad_on": true,
+        "native_ad_on": false,
         "native_ad_detail_on" : true,
         "native_ad_medium_on" : true,
         "open_ad_on": true,
         "must_live_at_play_store": true
       },
       {
-        "name": "admob",
-        "value": 0,
+        "name": "max",
+        "value": 1,
         "load_time_out" : 10,
         "min_time": 0,
-        "interval": 5,
+        "interval": 2,
 
-        "appId_appKey_publisherId_gameId": "-",
+        "appId_appKey_publisherId_gameId": "e9kJg9BDn6fIHUNBqAl0_8TnIg15MI1BNEVwhy7f1fLoO0B0r9lvqAoEXnxq-ypxe3B1PTb26fN27Awz38r9U_",
         "banner": "-",
         "mrec": "-",
-        "inter": "-",
-        "native_ad": "-",
+        "inter": "847a70b1664a5d41",
+        "native_ad": "9dcad6299fae4719",
         "open_ad": "-",
         "banner_switch_priority": "native",
 
